@@ -1,23 +1,27 @@
 import turtle as trtl
+
+
 screen = trtl.Screen()
 screen.bgcolor("white")
 pen = trtl.Turtle()
 pen.speed("fastest")
 
 size = 800
-x = -400
-y = 400
-origin=(x, y)
+x = 0
+y = 0
+
 
 for i in range(50):
     pen.up()
-    x = x + 8
-    y = y - 8
-    size = size - 16
+    pen.goto(x - size / 2, y + size / 2)
     pen.down()
-    for i in range(4):
+    
+    for _ in range(4):
         pen.forward(size)
         pen.right(90)
-        
-pen.hideturtle()
-screen.mainloop()
+    
+    # Update size and move to the next square
+    size -= 16
+
+pen.hideturtle()  # Hide the turtle after drawing
+screen.mainloop()  # Keep the window open
