@@ -2,41 +2,16 @@
 # 1.1.4Spirographs
 
 *Complete the following.*
-
-1. Compare and contrast zero-iteration conditions and infinite loops.
-2. A link to your code where you solve the following problem. Take the screen size of 800px. Create code or algorithm that always places the object(s), up to 5, in the center an equal distance from one another and from the edges of the screen.
-3. Concentric Squares -- Add a screenshot of your result and the code to create it on your repo.
-Objective: Write a Python program using the turtle module to draw a pattern of concentric squares. The pattern should be created using nested loops.
-
-Instructions:
-
-Setup the Turtle Environment:
-Import the turtle module.
-Create a turtle object.
-Set the turtle speed to the fastest setting.
-Draw Concentric Squares:
-Use a nested loop to draw multiple squares.
-The outer loop should control the number of squares.
-The inner loop should draw each square.
-Each square should be slightly larger than the previous one.
-Customize the Pattern:
-Use different colors for each square.
-Ensure the squares are centered on the screen.
-Example Output:
-
-The turtle should draw a series of squares, each one larger than the last, creating a pattern of concentric squares.
-
-Hints:
-
-Use the penup() and pendown() methods to move the turtle without drawing.
-Use the color() method to change the turtle’s color.
-Use the forward() and right() methods to draw the sides of the squares.
-
-
-4. Complete the steps 17, 18 and 19 from [mypltw use clever to sign on](https://pltw.read.inkling.com/a/b/5310c007377c46e28d745961310f0c2e/p/728c751a6c4145bea0ea83c5058fb9f9#44b0003a2ee14fcc9865e7bb5faec747)
-5. Answer to step 21
-6. Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
-7. Give an example of an undecidable problem, attach code.
-   
-
-
+1. https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/99c02fe3a2a914cc5816563e4ebc0af241730c71/%23Q1.py
+2. https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/6a60864106866608f0e326946db45726f74b53cf/%23Q2.py
+3. 
+<img src = "https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/99c02fe3a2a914cc5816563e4ebc0af241730c71/spirograph_code.png">
+<img src = "https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/99c02fe3a2a914cc5816563e4ebc0af241730c71/spirograph_output.png">
+4. https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/99c02fe3a2a914cc5816563e4ebc0af241730c71/%23Q4.py <br>
+5. https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/99c02fe3a2a914cc5816563e4ebc0af241730c71/%23Q5.py <br>
+6. <img src = "https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/c2ebf1397efe4d8482c35504aecee74b0ac7cf1e/1.1.3_regex_code.png">
+For 1.1.3, I used regular expression instead of tokenization. <br>
+Tokenization breaks down a text into smaller units, or tokens. <br>
+Regular expression uses a regex pattern (i.e.\b\w+\b) to define search patterns. <br>
+I think that in 1.1.3, regex was more effective, because it could easily search for a pattern within the user's input, and identify the key information necessary to generate output.
+7. https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/c2ebf1397efe4d8482c35504aecee74b0ac7cf1e/%23Q7.py
