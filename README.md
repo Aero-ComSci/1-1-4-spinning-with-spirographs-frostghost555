@@ -13,5 +13,5 @@
 For 1.1.3, I used regular expression instead of tokenization. <br>
 Tokenization breaks down a text into smaller units, or tokens. <br>
 Regular expression uses a regex pattern (i.e.\b\w+\b) to define search patterns. <br>
-I think that in 1.1.3, regex was more effective, because it could easily search for a pattern within the user's input, and identify the key information necessary to generate output.
+I think that in 1.1.3, regex was more effective, because it could easily search for a pattern within the user's input, and identify the key information necessary to generate output. <br>
 7. https://github.com/Aero-ComSci/1-1-4-spinning-with-spirographs-frostghost555/blob/c2ebf1397efe4d8482c35504aecee74b0ac7cf1e/%23Q7.py
